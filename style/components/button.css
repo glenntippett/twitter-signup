@@ -12,24 +12,24 @@ button:hover {
     cursor: pointer;
 }
 
-#signUp {
+.blueButton {
     background-color: #1da1f2;
     color: #ffffff;
     border: none;
     margin-bottom: 15px;
 }
 
-#signUp:hover {
+.blueButton:hover {
     background-color: #1b91db;
 }
 
-#logIn {
+.whiteButton {
     background-color: #ffffff;
     color: #1da1f3;
     border: 1px solid #1da1f2;
     margin-bottom: 15px;
 }
 
-#logIn:hover {
+.whiteButton:hover {
     background-color: #e8f5fe;
 }

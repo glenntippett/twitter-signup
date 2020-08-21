@@ -35,6 +35,11 @@ p, span {
     margin-bottom: 40px;
 }
 
+.icon {
+    height: 25px;
+    margin-right: 20px;
+}
+
 .sectionContainer {
     width: 380px;
     align-self: center;

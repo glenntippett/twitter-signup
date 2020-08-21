@@ -5,18 +5,31 @@ button {
     border-radius: 50px;
     height: 37px;
     font-size: 15px;
+    outline: none;
+}
+
+button:hover { 
+    cursor: pointer;
 }
 
 #signUp {
-    background-color: #1da1f3;
+    background-color: #1da1f2;
     color: #ffffff;
     border: none;
     margin-bottom: 15px;
 }
 
+#signUp:hover {
+    background-color: #1b91db;
+}
+
 #logIn {
     background-color: #ffffff;
     color: #1da1f3;
-    border: 1px solid #1da1f3;
+    border: 1px solid #1da1f2;
     margin-bottom: 15px;
+}
+
+#logIn:hover {
+    background-color: #e8f5fe;
 }

@@ -33,3 +33,7 @@ button:hover {
 .whiteButton:hover {
     background-color: #e8f5fe;
 }
+
+#logInButton {
+    padding: 0 15px;
+}

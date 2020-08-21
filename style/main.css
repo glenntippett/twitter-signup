@@ -60,3 +60,9 @@ p, span {
     margin-top: 59px;
     margin-bottom: 15px;
 }
+
+#rightPageContainer {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}

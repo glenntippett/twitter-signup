@@ -42,6 +42,9 @@ p, span {
 
 #left {
     background-color: #71c9f7;
+    background-image: url(./../img/twitter-logo-blue.png);
+    background-repeat: no-repeat;
+    background-position-x: left;
 }
 
 #twitterLogo {

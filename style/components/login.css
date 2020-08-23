@@ -1,11 +1,9 @@
 .loginForm {
   display: flex;
-  align-self: flex-start;
 }
 
 label {
   color: #657786;
-
 }
 
 #username, #password {

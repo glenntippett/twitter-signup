@@ -25,18 +25,15 @@
 
         <div class="halfPage" id="right">
             <div id="rightPageContainer">
-                <form class="loginNav">
-                    <div class="usernameContainer">
-                        <label class="loginDetails" id="usernameLogin">Phone, email or username</span>
-                    </div>
-
-                    <div class="passwordContainer">
-                        <span class="loginDetails" id="passwordLogin">Password</span>
-                    </div>
-                    <div>
-                        <button class="whiteButton" id="logInButton">Log in</button>
-                    </div>
+                <form class="loginForm">
+                    <label for="username">Phone, email or username</label>
+                    <input type="text" id="username" name="username">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password">
+                    <input type="submit" class="whiteButton" id="logInButton" value="Log in">
                 </form>
+
+
 
                 <div class="sectionContainer" id="joinTwitterContainer">
                     <img src="./img/twitter-logo.png" alt="" id="twitterLogo">

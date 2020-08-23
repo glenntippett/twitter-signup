@@ -76,12 +76,6 @@ p, span {
     flex-direction: column;
 }
 
-.loginNav {
-    display: flex;
-    align-self: flex-start;
-}
-
-
 #joinTwitterContainer {
     margin-top: 50%;
 }

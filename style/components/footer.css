@@ -1,0 +1,6 @@
+footer {
+  height: var(--footer-height);
+  bottom: 0;
+  background-color: blue;
+  z-index: 2;
+}

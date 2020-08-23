@@ -43,6 +43,9 @@ p, span {
 
 .sectionContainer {
     width: 380px;
+}
+
+#aboutTwitterContainer {
     align-self: center;
 }
 
@@ -65,6 +68,16 @@ p, span {
 #rightPageContainer {
     padding: 15px;
     display: flex;
-    justify-content: center;
     flex-direction: column;
 }
+
+.loginNav {
+    display: flex;
+    align-self: flex-start;
+}
+
+
+#joinTwitterContainer {
+    margin-top: 50%;
+}
+

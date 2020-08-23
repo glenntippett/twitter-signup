@@ -36,4 +36,5 @@ button:hover {
 
 #logInButton {
     padding: 0 15px;
+    border-radius: 50px;
 }

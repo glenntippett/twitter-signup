@@ -24,7 +24,7 @@ p, span {
 }
 
 .halfPage {
-    height: 100vh;
+    height: calc(100vh - var(--footer-height));
     width: 50vw;
     display: flex;
     justify-content: center;

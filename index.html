@@ -25,18 +25,24 @@
 
         <div class="halfPage" id="right">
             <div id="rightPageContainer">
-                <form class="loginForm">
-                    <div id="usernameContainer" class="loginDetailsContainer">
-                        <label for="username">Phone, email or username</label>
-                        <input type="text" id="username" name="username">
-                    </div>
-                    <div id="passwordContainer" class="loginDetailsContainer">
-                        <label for="password">Password</label>
-                        <input type="password" id="password" name="password">
-                    </div>
-
-                    <input type="submit" id="topLogInButton" value="Log in">
-                </form>
+                <div class="formContainer">
+                    <form class="loginForm">
+                        <div id="usernameContainer" class="loginDetailsContainer">
+                            <label class="login" for="username">Phone, email or username</label>
+                            <input type="text" id="username" name="username">
+                        </div>
+                        <div class="passwordContainer">
+                            <div class="loginDetailsContainer">
+                                <label class="login" for="password">Password</label>
+                                <input type="password" id="password" name="password">
+                            </div>
+                            <div>
+                                <span class="forgotPassword">Forgot password?</span>
+                            </div>
+                        </div>
+                        <input type="submit" id="topLogInButton" value="Log in">
+                    </form>
+                </div>
 
 
 

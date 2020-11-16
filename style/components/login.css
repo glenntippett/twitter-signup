@@ -1,11 +1,15 @@
 .loginForm {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
+  padding: 0 80px;
 }
 
 label {
   color: #657786;
 }
+
+.login { max-height: inherit; }
 
 #username, #password {
   border: none;
@@ -21,15 +25,13 @@ input {
 .loginDetailsContainer {
   background-color: #f6f8fa;
   margin-right: 15px;
-  text-size-adjust: 100%;
+  padding: 5px 10px 0 10px;
 }
 
-.loginDetailsContainer label, 
+.loginDetailsContainer label,
 .loginDetailsContainer input {
-  padding: 5px 10px 0 10px;
   background-color: #f6f8fa;
   width: 200px;
-  height: 30px;
 }
 
 .loginDetailsContainer input {

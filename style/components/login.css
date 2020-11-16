@@ -13,7 +13,6 @@ label {
 
 #username, #password {
   border: none;
-  border-bottom: 2px solid rgb(118, 118, 118);
 }
 
 input {
@@ -26,6 +25,7 @@ input {
   background-color: #f6f8fa;
   margin-right: 15px;
   padding: 5px 10px 0 10px;
+  border-bottom: 2px solid rgb(118, 118, 118);
 }
 
 .loginDetailsContainer label,

@@ -7,11 +7,13 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+    padding: 10px 15px;
+
 }
 
 footer nav {
   font-size: 13px;
-  padding: 10px 15px;
+  margin: 5px 0;
 }
 
 footer nav a {
@@ -31,4 +33,13 @@ footer nav a {
 #footerNav a:hover {
   text-decoration-line: underline;
   text-decoration-color: #657786;
+}
+
+.footerLinksContainer {
+  margin: 5px 0;
+}
+
+.copyright {
+  text-align: center;
+  margin: 5px 0;
 }
